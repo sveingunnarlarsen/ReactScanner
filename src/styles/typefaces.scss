@@ -1,0 +1,110 @@
+@import './colors.scss';
+
+@font-face {
+  font-family: Karbon;
+  src: local(Karbon-Regular),
+    url('../fonts/Karbon_Regular/Karbon-Regular.woff') format('woff'),  
+    url('../fonts/Karbon_Regular/Karbon-Regular.otf') format('opentype'),
+    url('../fonts/Karbon_Regular/Karbon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Karbon;
+  src: local(Karbon-Medium),
+    url('../fonts/Karbon_Medium/Karbon-Medium.woff') format('woff'),
+    url('../fonts/Karbon_Medium/Karbon-Medium.otf') format('opentype'),
+    url('../fonts/Karbon_Medium/Karbon-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Karbon;
+  src: local(Karbon-Semibold),
+    url('../fonts/Karbon_Semibold/Karbon-Semibold.woff') format('woff'),
+    url('../fonts/Karbon_Semibold/Karbon-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Karbon;
+  src: local(Karbon-Bold),
+    url('../fonts/Karbon_Bold/Karbon-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+.page-title-text {
+  font-family: Karbon;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color-white;
+}
+
+.Text-Style {
+  font-family: Karbon;
+  font-size: 26px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.69;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}
+.Text-Style-7 {
+  font-family: Karbon;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color-rosy-pink;
+}
+.Text-Style-4 {
+  font-family: Karbon;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}
+.Text-Style-6 {
+  font-family: Karbon;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}
+.Text-Style-3 {
+  font-family: Karbon;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}
+.Text-Style-2 {
+  font-family: Karbon;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}

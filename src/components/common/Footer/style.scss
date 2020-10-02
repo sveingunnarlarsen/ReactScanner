@@ -1,0 +1,71 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+footer {
+  background: linear-gradient(90deg, $color-mid-blue 0%, $color-light-navy-blue 100%);
+  width: 100%;
+  height: 408px;
+}
+
+.app-footer {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-footer-left {
+  text-align: left;
+  height: 264px;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.app-footer-right {
+  margin-bottom: 31px;
+  margin-left: 25px;
+}
+
+.app-footer-text {
+  font-family: Karbon;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: $color-white;
+  padding: 5px;
+}
+
+.janssen-footer-logo {
+  width: 200px;
+  height: 63px;
+  object-fit: contain;
+}
+
+@media (min-width: 576px) { 
+  footer {
+    height: 267px;
+  }
+  
+  .app-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .app-footer-left {
+    height: 132px;
+    width: 715px;
+    margin-top: 50px;
+    margin-bottom: 85px;
+  }
+  
+  .app-footer-right {
+    margin-bottom: 155px;
+    margin-top: 26px;
+  }
+  
+  .app-footer-text {
+    line-height: 1.14;
+  }
+}

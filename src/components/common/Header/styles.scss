@@ -1,0 +1,24 @@
+@import '../../../styles/colors.scss';
+
+header {
+  height: 95px;
+  background: $color-mid-blue;
+  background: linear-gradient(0deg, $color-mid-blue 0%, $color-light-navy-blue 100%);
+  width: 100%;
+}
+
+header > h1 {
+  color: $color-white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.janssen-header-logo {
+  width: 200px;
+  height: 63px;
+  object-fit: contain;
+  margin: 16px
+}

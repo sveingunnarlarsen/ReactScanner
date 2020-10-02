@@ -1,0 +1,61 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "standard",
+    "standard-react"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "it": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    //TODO remove the ones we agree to keep over time
+    "react-hooks/exhaustive-deps": 0,
+    "quote-props": 0,
+    "arrow-parens": 0,
+    "arrow-body-style": 0,
+    "prefer-const": 0,
+    "func-names": 0,
+    "no-else-return": 0,
+    "object-curly-newline": 0,
+    "prefer-template": 0,
+    "no-shadow": 0,
+    "no-plusplus": 0,
+    "function-paren-newline": 0,
+    "array-bracket-spacing": 0,
+    "implicit-arrow-linebreak": 0,
+    "guard-for-in": 0,
+    "object-shorthand": 0,
+    "no-nested-ternary": 0,
+    "dot-notation": 0,
+    "no-param-reassign": 0,
+    "import/extensions": 0,
+    "react/jsx-indent": 0,
+    "react/jsx-curly-brace-presence": 0,
+    "jsx-a11y/no-autofocus": 0,
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }]
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ]
+}

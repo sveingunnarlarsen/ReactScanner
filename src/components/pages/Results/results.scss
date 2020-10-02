@@ -1,0 +1,104 @@
+.main-header {
+  width: 1112px;
+  height: 95px;
+  background-image: linear-gradient(to top, #1d74ba 100%, #2b4f7b);
+}
+
+.ok-landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ok-landing-top {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
+.ok-landing-bottom {
+  text-align: left;
+  margin: auto;
+  width: fit-content;
+}
+
+.ready-header {
+  width: 174px;
+  height: 34px;
+  font-family: 'Karbon Regular';
+  font-size: 34px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--charcoal-grey);
+}
+
+.lot-exp-wrapper {
+  width: 141px;
+  height: 18px;
+  font-family: 'Karbon Bold';
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--charcoal-grey);
+  text-align: center;
+}
+
+.scan-instructions-one {
+  width: 600px;
+  height: 72px;
+  font-family: 'Karbon Regular';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+.scan-instructions-two {
+  width: 600px;
+  height: 72px;
+  font-family: 'Karbon Regular';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+.scan-results-header {
+  font-family: 'Karbon Regular';
+  font-size: 14px;
+}
+
+.scan-results-multivial-note {
+  font-size: 14px;
+  color: #00a0d8;
+}
+
+
+.scan-results-wrapper {
+  width: 300px;
+  height: 108px;
+  font-family: 'Karbon Medium';
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}

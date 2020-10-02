@@ -1,0 +1,45 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+.card {
+  width: 160px;
+  height: 115px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.highlightCard {
+  background-color: $color-cerulean;
+  box-shadow: 0 12px 20px 0 #d7dee8;
+}
+
+.content {
+  padding: 24px 15px 24px 15px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  @extend .Text-Style-3;
+  margin: 0;
+}
+
+.highlightText {
+  color: white;
+}
+
+.iconWrapper {
+  width: 36px;
+  height: 36px;
+
+  text-align: center;
+}
+
+.icon {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+}

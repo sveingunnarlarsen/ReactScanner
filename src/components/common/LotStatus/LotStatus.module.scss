@@ -1,0 +1,28 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgWrapper {
+  padding: 2rem 0 2rem 0;
+}
+
+.img {
+  width: 100px;
+  border-radius: 10%;
+  border: 10px solid var(charcoal-grey)
+}
+
+.header {
+  @extend .Text-Style-3;
+}
+
+.header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

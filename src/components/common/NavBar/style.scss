@@ -1,0 +1,39 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+nav {
+  background: $color-pale-grey;
+  height: 95px;
+  width: 100%;
+  .menu-item {
+    height: 100%;
+    &:hover, &.selected {
+      transform: scaleY(1.5);
+      transform-origin:  center;
+      background: $color-pale-grey;
+      a {
+        transform: scaleY(0.66);
+        text-decoration: none;
+        .navbar-text{
+          color: $color-cerulean;
+        }
+      }
+    }
+    svg {
+      margin-right: 17px;
+    }
+    a {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-family: Karbon;
+      font-weight: bold;
+      font-size: 14px;
+      color: $color-charcoal-grey;
+      text-decoration: none;
+    }
+  }
+}

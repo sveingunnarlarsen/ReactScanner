@@ -1,0 +1,69 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+.main {
+  width: 100vw;
+  height: 927px;
+}
+
+.portrait {
+  object-fit: cover;
+  width: 100vw;
+  height: 415px;
+}
+
+.padded {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.content {
+  @extend .padded;
+  height: 340px;
+}
+
+.header {
+  @extend .Text-Style-2;
+  height: 72px;
+  text-align: left;
+  margin-top: 45px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.chooseOne {
+  @extend .Text-Style;
+}
+
+.cardRow {
+  display: flex;
+}
+
+.report {
+  @extend .padded;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.reportIconWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: $color-cerulean;
+}
+
+.reportIcon {
+  width: 19px;
+  height: 21px;
+}
+
+.reportText {
+  @extend .Text-Style-4;
+}

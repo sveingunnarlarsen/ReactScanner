@@ -1,0 +1,95 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/typefaces.scss';
+
+
+.scan-right-wrapper {
+  text-align: right;
+  padding: 0px;
+}
+
+.scan-left-wrapper {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  width: 737px;
+}
+
+.scan-header-wrapper {
+  width: 555px;
+  height: 171px;
+}
+
+.scan-page-header {
+  font-family: Karbon;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;    
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 10px;
+}
+
+.scan-page-subheader {
+  font-family: Karbon;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;    
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 20px;
+}
+
+.scan-left-wrapper > .lot-check-wrapper > .lot-check-input {
+  width: 405px;
+  height: 60px;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+  font-family: Karbon;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $color-charcoal-grey;
+}
+
+.lot-check-wrapper > .check-lot-button {
+  width: 150px;
+  height: 60px;
+  margin-top: 30px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border: solid 1px rgba(57, 63, 71, 0.3);;
+  background-color: $color-pale-grey;
+  font-family: Karbon;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-cerulean;
+}
+
+.covid-landing-photo {
+  width: 375px;
+  height: 595px;
+  padding: 0px;
+  object-fit: cover;
+  object-position: 40% 0;
+}
